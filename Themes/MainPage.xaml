@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="Themes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Themes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <!-- Example 1 StaticResource setting the Accent Color
+    <Page.Resources>
+        <SolidColorBrush x:Key="AccentBrush" Color="{ThemeResource SystemAccentColor}"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle Width="100" Height="100" Fill="{StaticResource AccentBrush}"/>
+    </Grid>
+    
+    -->
+    
+    <!-- Example 2 ThemeResource setting values directly    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle Width="100" Height="100" Fill="{ThemeResource SystemAccentColor}"/>
+        <Rectangle Width="50" Height="50" Fill="{ThemeResource SystemColorWindowColor}"/>
+    </Grid>
+    -->
+    
+    <!-- Example 4 Using Built in Styles as defined in the generic.xaml file
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Header Text Block Style" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <TextBlock Text="Subheader Text Block Style" Style="{StaticResource SubheaderTextBlockStyle}"/>
+        <TextBlock Text="Title Text Block Style" Style="{StaticResource TitleTextBlockStyle}"/>
+        <TextBlock Text="Subtitle Text Block Style" Style="{StaticResource SubtitleTextBlockStyle}"/>
+        <TextBlock Text="Base Text Block Style" Style="{StaticResource BaseTextBlockStyle}"/>
+        <TextBlock Text="Body Text Block Style" Style="{StaticResource BodyTextBlockStyle}"/>
+        <TextBlock Text="Caption Text Block Style" Style="{StaticResource CaptionTextBlockStyle}"/>
+        <TextBlock Text="Flyout Picker Title Text Block Style" Style="{StaticResource FlyoutPickerTitleTextBlockStyle}"/>
+        <TextBlock Text="Navigation View Item Header Text Style" Style="{StaticResource NavigationViewItemHeaderTextStyle}"/>
+        <TextBlock Text="Ink Toolbar Flyout Item Content Text Style" Style="{StaticResource InkToolbarFlyoutItemContentTextStyle}"/>
+   </StackPanel> 
+    -->
+</Page>
